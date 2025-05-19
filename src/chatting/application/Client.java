@@ -36,7 +36,7 @@ public class Client implements ActionListener{
             }
         });
         
-        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/2.png"));
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/UserImage.png"));
         Image i5 = i4.getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         JLabel profile = new JLabel(i6);
@@ -64,7 +64,7 @@ public class Client implements ActionListener{
         more.setBounds(420, 20, 10, 25);
         p1.add(more);
         
-        JLabel name = new JLabel("Bunty");
+        JLabel name = new JLabel("UserTwo");
         name.setBounds(110, 15, 100, 18);
         name.setForeground(Color.WHITE);
         name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
